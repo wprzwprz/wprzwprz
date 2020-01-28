@@ -67,6 +67,12 @@ div.scrolling-wrapper {
   white-space: normal;
     display: inline-block;
   }
+  div.card4 {
+  white-space: normal;
+    width: 320px;
+    height: 360px;
+    display: inline-block;
+  }
   div.reserva {
 
     height: 100px;
