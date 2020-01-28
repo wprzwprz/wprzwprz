@@ -63,6 +63,10 @@ div.scrolling-wrapper {
     height: 360px;
     display: inline-block;
   }
+  div.card3 {
+  white-space: normal;
+    display: inline-block;
+  }
   div.reserva {
 
     height: 100px;
