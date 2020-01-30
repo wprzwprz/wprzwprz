@@ -16,7 +16,7 @@ border: 1px solid black;
   white-space: nowrap;
 
   font-family: "courier new", monospaced;
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
     font-weight: bold;
 }
@@ -103,14 +103,14 @@ div.light{
 }
 p.italic {
   font-family: Georgia, Times, serif;
-  font-size: 11px;
+  font-size: 12px;
   font-style: italic;
     font-weight: normal;
 
 }
 p.about {
   font-family: Georgia, Times, serif;
-  font-size: 11px;
+  font-size: 12px;
   font-style: normal;
     font-weight: normal;
 
