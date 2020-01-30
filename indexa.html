@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>wprzwprz</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="jquery.js"></script> 
+<script>
+  $(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+      var file = $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
+</script> 
+</head>
+<body>
+<header data-include="header"></header>
+<nav data-include="nav"></nav>
+<div class="reserva">&nbsp;</div>
+<div class="scrolling-wrapper" data-include="a">
+</div>
+<div class="reserva">&nbsp;</div>
+<footer>
+&copy; 2020 <img src="wptag.png">
+</footer>
+</body>
+</html>
