@@ -117,6 +117,10 @@ p.about {
 }
 
 /* unvisited link */
+a{
+text-decoration: none;
+
+}
 a:link {
   color: #000044;
 }
