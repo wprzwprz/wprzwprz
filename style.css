@@ -1,117 +1,137 @@
-html{
+html {}
 
+body {
+  margin: 50px;
+  background-image: "bg.png";
 }
-body{
-margin: 50px;
-background-image: "bg.png";
-}
-header{
-position: fixed;
-left: 50px;
-top: 50px;
-width: 100px;
-height: 20px
-border: 1px solid black;
-    display: inline-block;
+
+header {
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 20px border: 1px solid black;
+  display: inline-block;
   white-space: nowrap;
-
   font-family: "courier new", monospaced;
   font-size: 12px;
   font-style: normal;
-    font-weight: bold;
+  font-weight: bold;
 }
-nav{
-position: fixed;
-  white-space: nowrap;
-right: 50px;
-top: 50px;
 
+nav {
+  position: fixed;
+  white-space: nowrap;
+  right: 50px;
+  top: 50px;
   font-family: courier, monospaced;
   font-size: 11px;
   font-style: normal;
-    font-weight: normal;
-
+  font-weight: normal;
 }
-footer{
 
+footer {
   font-family: Arial, sans;
   font-size: 11px;
   font-style: normal;
-    font-weight: normal;
+  font-weight: normal;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
 
-position: fixed;
-bottom: 0;
-right:0;
+div {
+  border: 0px solid black;
 }
-div{
-border: 0px solid black;
-}
+
 div.scrolling-wrapper {
   white-space: nowrap;
   verical-align: middle;
-    display: inline-flex;
-   }
-  div.card {
-  white-space: normal;
-    width: 640px;
-    height: 360px;
-    display: inline-flex;
-  }
-  div.card2 {
-  white-space: normal;
-    width: 640px;
-    height: 360px;
-    display: inline-block;
-  }
-  div.card3 {
-  white-space: normal;
-    display: inline-block;
-  }
-  div.card4 {
-  white-space: normal;
-    width: 320px;
-    height: 360px;
-    display: inline-block;
-  }
-  div.reserva {
+  display: inline-flex;
+}
 
-    height: 100px;
-  }
-div.desc{
+div.card {
+  white-space: normal;
+  width: 640px;
+  height: 360px;
+  display: inline-flex;
+}
+
+div.card2 {
+  white-space: normal;
+  width: 640px;
+  height: 360px;
+  display: inline-block;
+}
+
+div.card3 {
+  white-space: normal;
+  display: inline-block;
+}
+
+div.card4 {
+  white-space: normal;
+  width: 320px;
+  height: 360px;
+  display: inline-block;
+}
+
+div.reserva {
+  height: 100px;
+}
+
+div.desc {
   font-family: Georgia, Times, serif;
   font-size: 11px;
   font-style: italic;
-    font-weight: normal;
-
-
-
+  font-weight: normal;
   white-space: normal;
-float:left;
-    width: 320px;
-top: 60px;
-    padding: 20px;
-    padding-right: 100px;
-
+  float: left;
+  width: 320px;
+  top: 60px;
+  padding: 20px;
+  padding-right: 100px;
 }
-div.cont{
-float:left;
+
+div.cont {
+  float: left;
   height: 480px;
-
 }
-div.light{
+
+div.light {
   height: 160px;
 }
+
 p.italic {
   font-family: Georgia, Times, serif;
   font-size: 11px;
   font-style: normal;
-    font-weight: bold;
-
+  font-weight: bold;
 }
+
 p.about {
   font-family: Georgia, Times, serif;
   font-size: 11px;
   font-style: normal;
-    font-weight: normal;
+  font-weight: normal;
+}
 
+/* unvisited link */
+a:link {
+  color: #000044;
+}
+
+/* visited link */
+a:visited {
+  color: #666666;
+}
+
+/* mouse over link */
+a:hover {
+  color: #0000ff;
+}
+
+/* selected link */
+a:active {
+  color: #000044;
 }
