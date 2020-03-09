@@ -37,7 +37,7 @@ void pyk(int top) {
       pushMatrix();
       rotateX(PI/2);
       point(0,0);
-      circle(0,0,10);
+//      circle(0,0,10);
       //cylinder(16, 0, 16, 4);
       popMatrix();
     }
