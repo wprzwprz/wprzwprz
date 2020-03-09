@@ -1,7 +1,7 @@
 
 
 void setup() {
-  fullScreen(P3D);
+  size(500,500);
   background(0);
 }
 void draw() {
