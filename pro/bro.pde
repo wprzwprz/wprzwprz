@@ -1,7 +1,7 @@
 
 
 void setup() {
-  size(1280,720,P3D);
+  size(500,500,P3D);
   background(0);
 }
 void draw() {
