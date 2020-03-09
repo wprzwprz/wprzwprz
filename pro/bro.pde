@@ -1,7 +1,7 @@
 
 
 void setup() {
-  size(500,500,P3D);
+  size(1280,720,P3D);
   background(0);
 }
 void draw() {
@@ -25,7 +25,7 @@ void pyk(int top) {
     rotateX(radians(-8));
     rotateY(radians(24));
     rotateZ(radians(15));
-    scale(float(mouseX)/720);
+    scale(float(mouseX)/640);
     pushMatrix();
     rotateX(PI/2);
     for (int j=0; j<top; j++) {
