@@ -6,10 +6,11 @@ void setup() {
 }
 void draw() {
   background(0);
-  fill(0);
+  fill(255);
   //noFill();
   strokeWeight(1);
-  stroke(255);
+  //stroke(255);
+  noStroke();
   //blendMode(SCREEN);
   camera(width/2, height/2+mouseY*10, 0, // eyeX, eyeY, eyeZ
     0.0, 0.0, 0.0, // centerX, centerY, centerZ
@@ -35,7 +36,8 @@ void pyk(int top) {
       scale(0.98);
       pushMatrix();
       rotateX(PI/2);
-      point(0,0);
+      //point(0,0);
+      circle(0,0,10);
       //cylinder(16, 0, 16, 4);
       popMatrix();
     }
