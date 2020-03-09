@@ -25,7 +25,7 @@ void pyk(int top) {
     rotateX(radians(-8));
     rotateY(radians(24));
     rotateZ(radians(15));
-    scale(float(mouseX)/720);
+    scale(float(mouseX)/640);
     pushMatrix();
     rotateX(PI/2);
     for (int j=0; j<top; j++) {
