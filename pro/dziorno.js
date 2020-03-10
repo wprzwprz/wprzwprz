@@ -12,11 +12,17 @@ function draw() {
   stroke(255);
   //noStroke();
   //blendMode(SCREEN);
-  camera(50+mouseX/5, 50+mouseY/5, 0, // eyeX, eyeY, eyeZ
+
+  camera(0, mouseY*10, width*3/4, // eyeX, eyeY, eyeZ
     0.0, 0.0, 0.0, // centerX, centerY, centerZ
     0.0, 1.0, 0.0); // upX, upY, upZ
     //pointLight(200, 255, 200, width/2, height/2, -200);
-  pyk(100);
+
+
+
+scale(width/75);
+  pyk(200*mouseX/width);
+
 }
 
 function pyk(top) {
@@ -28,7 +34,7 @@ function pyk(top) {
     scale(0.98);
     push();
     rotateX(PI/2);
-    for (j=0; j<200; j++) {
+    for (j=0; j<top; j++) {
       translate(16, 5.3, -1);
       rotateX(radians(-8));
       rotateY(radians(24));
